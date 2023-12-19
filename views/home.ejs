@@ -1,6 +1,13 @@
 <%- include("./partials/header"); -%>
-<h1>Home Page</h1>
-<h3> <%= homeText %> </h3>
+<h1>🚀 Welocome to LoneBlog 🚀</h1>
+<h3> 
+    Embark on a journey of discovery, growth, and connection with <span>LoneBlog</span>. Your adventure begins here – where every click opens up a world of possibilities. Join us in celebrating the beauty of knowledge and the joy of shared experiences.</h3>
+
+<h3>
+    Welcome to a community that values curiosity, embraces diversity, and thrives on the collective power of ideas. Let's make each visit to <span>LoneBlog</span> a stepping stone toward a brighter, more inspired tomorrow.</h3>
+
+<h3>Happy writing! 📚✨ </h3>
+
 <% postsCreated.forEach(post => { %>
     <h1> <%= post.title  %> </h1>
     <h3> <%= post.text.length>100 ? post.text.substring(0, 100) + ' ...' : post.text %> <a href="/posts/<%=post.title%>"> Read More</a> </h3>

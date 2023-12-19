@@ -34,8 +34,18 @@ label {
 	height: 60px;
 	background-color: #1abc9c;
 }
-h3{
-  padding-bottom: 3rem;  
+h3 {
+    margin-bottom: 2rem;
+}
+a {
+    font-weight: 700;
+}
+a:hover {
+    color: #bb710a;
+}
+span {
+    font-weight: 700;
+    text-decoration: underline;
 }
 .footer p {
 	padding-top: 2rem;
